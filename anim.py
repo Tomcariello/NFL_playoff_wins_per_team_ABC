@@ -7,14 +7,14 @@ fig = plt.figure()
 ax = fig.add_axes([0,0,1,1])
 
 # Indicate the labels
-langs = ['C', 'C++', 'Java', 'Python', 'PHP']
+languages = ['JavaSCript', 'C++', 'Java', 'Python', 'PHP']
 
 # Student values list 
-students = [23,17,35,29,12]
+people = [11,58,27,36,21]
 
 # Specify the chart type (barh --> horizontal bar chart)
 # Also specify which values to show on each axis
-ax.barh(langs,students)
+ax.barh(languages, people)
 
 # Show the bar chart
 plt.show()

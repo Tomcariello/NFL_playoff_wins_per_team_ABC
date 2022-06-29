@@ -20,7 +20,5 @@ people = [11,58,27,36,21]
 # Also specify which values to show on each axis
 ax.barh(languages, people)
 
-# plt.axis("image")
-
 # Show the bar chart
 plt.show()
